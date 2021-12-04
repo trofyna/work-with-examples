@@ -366,35 +366,38 @@ a[href="https://www.youtube.com"]
   } */
 
 
-  /* Специфичность - 0 0 1 0 */
-.post-title {
-    /* color: green;
-  }
-   */
-  /* ✅ Специфичность - 0 1 0 0 */
-  /* #title {
-    color: orange;
-  } */
-
   /* Третий подход
    заключается в задании очень специфичных классов блоку-родителю и каждому тегу внутри него по принципу имя_родителя-имя_ребёнка. */
 
-   .post {
-    /* Стили статьи */
-  }
-  
-  .post-title {
-    /* Стили заголовка */
-  }
-  
-  .post-text {
-    /* Стили текста */
+  /* .post {
+    color: green;
   }
   
   .post-link {
-    /* Стили ссылки */
+    color: currentColor;
+  } */
+/* 
+  .alert {
+    --alert-text-color: black;
+    --alert-accent-color: tomato;
   }
   
-  .post-link:hover {
-    /* Стили ссылки при ховере */
+  .alert-text {
+    color: var(--alert-text-color);
+    border: 1px solid var(--alert-accent-color);
   }
+  
+  .alert-icon {
+    background-color: var(--alert-accent-color);
+  }
+ */
+
+ li {
+    list-style: none;
+    color: green;
+  }
+  
+  .rules >li {
+    list-style: upper-roman;
+    color: navy;
+  } 
