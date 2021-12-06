@@ -391,7 +391,7 @@ a[href="https://www.youtube.com"]
     background-color: var(--alert-accent-color);
   }
  */
-
+/* 
  li {
     list-style: none;
     color: green;
@@ -400,4 +400,22 @@ a[href="https://www.youtube.com"]
   .rules >li {
     list-style: upper-roman;
     color: navy;
-  } 
+  }  */
+
+/* 
+  .text > span {
+    text-decoration: line-through;
+  }
+  
+  .link {
+    text-decoration: none;
+  } */
+
+  .post-title {
+    text-align: center;
+  }
+  
+  .align-right {
+    text-align: right;
+  }
+  
