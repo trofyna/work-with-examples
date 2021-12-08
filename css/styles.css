@@ -410,7 +410,7 @@ a[href="https://www.youtube.com"]
   .link {
     text-decoration: none;
   } */
-
+/* 
   .post-title {
     text-align: center;
   }
@@ -418,4 +418,60 @@ a[href="https://www.youtube.com"]
   .align-right {
     text-align: right;
   }
+   */
+   /* .post-title {
+    letter-spacing: 10px;
+  }
   
+  .post-text {
+    word-spacing: 5px;
+  } */
+   /* CREATE A SHADOW */
+  /* .title {
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #000000;
+  } */
+/* 
+  .title {
+    color: #ffffff;
+    text-shadow: 2px 2px 20px #ff0000, 5px 5px 5px #000000;
+  } */
+/* span {
+  white-space:  pre;
+} */
+/* .title {
+  list-style: none;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 100;
+} */
+
+/* pre {
+  font-family: 'Arial', 'Helvetica', sans-serif;
+  color: #2a2a2a;
+  font-size: 16px;
+}
+
+pre::first-letter {
+  font-family: 'Tahoma', serif;
+  font-size: 32px;
+  color: #f44336;
+} */
+
+pre {
+  font-family: 'Arial', 'Helvetica', sans-serif;
+  color: #2a2a2a;
+  font-size: 16px;
+}
+
+pre::first-letter {
+  font-family: 'Tahoma', serif;
+  font-size: 32px;
+  color: #f44336;
+}
+
+/* Let's add text selection styles for each paragraph of the poem. */
+pre::selection {
+  color: #ffffff;
+  background-color: #3f51b5;
+}
